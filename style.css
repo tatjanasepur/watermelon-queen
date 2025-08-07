@@ -1,8 +1,6 @@
-/* Osnovni stilovi */
-
 body {
   background-color: #fff0f5;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   color: #2e2e2e;
@@ -14,6 +12,7 @@ header {
   text-align: center;
   padding: 2rem 1rem;
   position: relative;
+  /* Uklonjen background-image koji je mogao da pravi grešku */
 }
 
 h1 {
@@ -64,6 +63,13 @@ h1 {
   margin-right: 0.5rem;
 }
 
+.watermelon-sticker {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
 .reviews {
   margin-top: 2rem;
 }
@@ -82,3 +88,4 @@ footer {
   background-color: #ffb6c1;
   margin-top: 2rem;
 }
+
